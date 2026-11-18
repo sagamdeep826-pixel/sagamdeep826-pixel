@@ -1,4 +1,4 @@
-
+<img src="https://raw.githubusercontent.com/sagamdeep826-pixel/sagamdeep826-pixel/main/profile-card.svg" width="100%"/>
 
 
 <div align="center">
