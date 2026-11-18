@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <style>
+    .f{fill:#fff;opacity:.9;animation:fall linear infinite}
+    @keyframes fall{from{transform:translateY(-20px)}to{transform:translateY(320px)}}
+    text{font-family:Arial,sans-serif;fill:#fff;font-size:44px;font-weight:bold}
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1d3a"/>
+      <stop offset="1" stop-color="#1e4d7a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="url(#bg)"/>
+  <text x="400" y="160" text-anchor="middle">🎄 Merry Christmas 🎄</text>
+
+  <circle class="f" cx="40"  r="3" style="animation-duration:6s;animation-delay:-1s"/>
+  <circle class="f" cx="110" r="4" style="animation-duration:8s;animation-delay:-4s"/>
+  <circle class="f" cx="180" r="2" style="animation-duration:5s;animation-delay:-2s"/>
+  <circle class="f" cx="250" r="3" style="animation-duration:7s;animation-delay:-5s"/>
+  <circle class="f" cx="320" r="4" style="animation-duration:9s;animation-delay:-3s"/>
+  <circle class="f" cx="390" r="2" style="animation-duration:6s;animation-delay:-6s"/>
+  <circle class="f" cx="460" r="3" style="animation-duration:8s;animation-delay:-1s"/>
+  <circle class="f" cx="530" r="4" style="animation-duration:7s;animation-delay:-4s"/>
+  <circle class="f" cx="600" r="2" style="animation-duration:5s;animation-delay:-2s"/>
+  <circle class="f" cx="670" r="3" style="animation-duration:9s;animation-delay:-5s"/>
+  <circle class="f" cx="740" r="4" style="animation-duration:6s;animation-delay:-3s"/>
+  <circle class="f" cx="75"  r="2" style="animation-duration:10s;animation-delay:-7s"/>
+  <circle class="f" cx="355" r="3" style="animation-duration:11s;animation-delay:-8s"/>
+  <circle class="f" cx="705" r="2" style="animation-duration:10s;animation-delay:-6s"/>
+</svg>
