@@ -1,30 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
-  <style>
-    .f{fill:#fff;opacity:.9;animation:fall linear infinite}
-    @keyframes fall{from{transform:translateY(-20px)}to{transform:translateY(320px)}}
-    text{font-family:Arial,sans-serif;fill:#fff;font-size:44px;font-weight:bold}
-  </style>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0b1d3a"/>
-      <stop offset="1" stop-color="#1e4d7a"/>
-    </linearGradient>
-  </defs>
-  <rect width="800" height="300" fill="url(#bg)"/>
-  <text x="400" y="160" text-anchor="middle">🎄 Merry Christmas 🎄</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470">
+<style>
+text{font-family:"Courier New",monospace}
+.k{fill:#5b6b7a;font-size:13px}.v{fill:#0f2a3d;font-size:13px;text-anchor:end}
+.h{fill:#1b7f9e;font-size:12px;font-weight:bold}
+.s{fill:#fff;animation:fall linear infinite}
+@keyframes fall{from{transform:translateY(-10px)}to{transform:translateY(350px)}}
+.tw{animation:tw 1.6s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+.fly{animation:fly 9s linear infinite}
+@keyframes fly{from{transform:translateX(-150px)}to{transform:translateX(340px)}}
+.bob{animation:bob 1.2s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(-4px)}50%{transform:translateY(4px)}}
+@media (prefers-color-scheme:dark){.k{fill:#9fb0bf}.v{fill:#e8f1f8}}
+</style>
+<defs>
+<clipPath id="pn"><rect x="40" y="80" width="300" height="340" rx="8"/></clipPath>
+<pattern id="d" width="50" height="50" patternUnits="userSpaceOnUse"><g stroke-linecap="round" fill="none"><path stroke="#2ecc71" stroke-width="3.2" d="M28 42h.1M17 2h.1M29 6h.1M28 41h.1M39 48h.1M32 37h.1M35 16h.1M12 42h.1M35 48h.1M10 47h.1M22 43h.1M28 18h.1M37 4h.1M16 18h.1M5 34h.1M35 37h.1M22 14h.1M29 4h.1M39 27h.1M46 19h.1M47 25h.1M39 4h.1M39 31h.1M41 36h.1M13 24h.1M37 32h.1M16 40h.1"/><path stroke="#2ecc71" stroke-width="2" d="M32 34h.1M16 46h.1M9 3h.1M6 14h.1M29 25h.1M45 35h.1M30 28h.1M12 27h.1M13 3h.1M43 6h.1M21 27h.1M22 34h.1M45 34h.1M44 26h.1M36 11h.1M45 14h.1M26 43h.1M17 44h.1M26 11h.1M20 5h.1"/><path stroke="#27ae60" stroke-width="2.6" d="M36 33h.1M37 41h.1M24 40h.1M21 10h.1M10 48h.1M48 20h.1M35 21h.1M44 28h.1M34 41h.1M6 16h.1M16 42h.1M25 47h.1M41 44h.1M46 30h.1M32 45h.1M5 12h.1M12 30h.1M25 7h.1M38 10h.1M24 26h.1M40 47h.1M42 43h.1"/><path stroke="#1e8449" stroke-width="3.2" d="M25 3h.1M29 33h.1M33 38h.1M7 4h.1M45 18h.1M36 42h.1M25 34h.1M15 18h.1M10 48h.1M25 2h.1M43 34h.1"/><path stroke="#27ae60" stroke-width="3.2" d="M48 23h.1M17 17h.1M5 2h.1M44 48h.1M47 2h.1M45 14h.1M14 48h.1M31 33h.1M31 9h.1M39 16h.1"/><path stroke="#27ae60" stroke-width="2" d="M13 44h.1M7 12h.1M25 11h.1M6 9h.1M21 36h.1M13 26h.1M27 38h.1M30 42h.1M14 15h.1M25 12h.1M44 6h.1M3 47h.1M21 26h.1M36 31h.1M44 39h.1M25 10h.1M18 8h.1M33 47h.1M45 23h.1M3 43h.1"/><path stroke="#1e8449" stroke-width="2" d="M23 11h.1M8 12h.1M28 12h.1M10 11h.1M37 13h.1M45 23h.1M27 31h.1M44 39h.1M34 4h.1M36 34h.1M16 34h.1M40 23h.1M21 17h.1M39 39h.1"/><path stroke="#1e8449" stroke-width="2.6" d="M20 25h.1M2 33h.1M5 20h.1M17 27h.1M8 12h.1M11 19h.1M12 4h.1M45 5h.1M8 25h.1M43 15h.1M34 36h.1M33 11h.1"/><path stroke="#e74c3c" stroke-width="2.6" d="M22 33h.1M33 16h.1M32 35h.1M7 22h.1"/><path stroke="#f1c40f" stroke-width="2.6" d="M24 33h.1M4 17h.1M29 42h.1"/><path stroke="#2ecc71" stroke-width="2.6" d="M44 20h.1M43 11h.1M26 21h.1M41 26h.1M14 31h.1M35 5h.1M27 37h.1M44 14h.1M35 40h.1M21 42h.1M19 45h.1M36 18h.1M46 25h.1M13 41h.1M16 33h.1M39 30h.1M14 33h.1M5 9h.1M11 24h.1"/><path stroke="#ffffff" stroke-width="2.6" d="M5 18h.1M39 3h.1M8 15h.1"/></g></pattern>
+</defs>
+<rect x="10" y="10" width="880" height="450" rx="18" fill="#eef4f8"/>
+<rect x="22" y="22" width="856" height="426" rx="12" fill="#fff" stroke="#d5e0e8"/>
+<circle cx="44" cy="44" r="6" fill="#ff5f57"/><circle cx="62" cy="44" r="6" fill="#febc2e"/><circle cx="80" cy="44" r="6" fill="#28c840"/>
+<text x="450" y="48" text-anchor="middle" style="font-size:12px;fill:#5b6b7a">profile.sh --christmas</text>
+<line x1="22" y1="62" x2="878" y2="62" stroke="#d5e0e8"/>
 
-  <circle class="f" cx="40"  r="3" style="animation-duration:6s;animation-delay:-1s"/>
-  <circle class="f" cx="110" r="4" style="animation-duration:8s;animation-delay:-4s"/>
-  <circle class="f" cx="180" r="2" style="animation-duration:5s;animation-delay:-2s"/>
-  <circle class="f" cx="250" r="3" style="animation-duration:7s;animation-delay:-5s"/>
-  <circle class="f" cx="320" r="4" style="animation-duration:9s;animation-delay:-3s"/>
-  <circle class="f" cx="390" r="2" style="animation-duration:6s;animation-delay:-6s"/>
-  <circle class="f" cx="460" r="3" style="animation-duration:8s;animation-delay:-1s"/>
-  <circle class="f" cx="530" r="4" style="animation-duration:7s;animation-delay:-4s"/>
-  <circle class="f" cx="600" r="2" style="animation-duration:5s;animation-delay:-2s"/>
-  <circle class="f" cx="670" r="3" style="animation-duration:9s;animation-delay:-5s"/>
-  <circle class="f" cx="740" r="4" style="animation-duration:6s;animation-delay:-3s"/>
-  <circle class="f" cx="75"  r="2" style="animation-duration:10s;animation-delay:-7s"/>
-  <circle class="f" cx="355" r="3" style="animation-duration:11s;animation-delay:-8s"/>
-  <circle class="f" cx="705" r="2" style="animation-duration:10s;animation-delay:-6s"/>
+<rect x="40" y="80" width="300" height="340" rx="8" fill="#0b1d3a"/>
+<text x="54" y="100" class="h" style="fill:#7fd6ee">VISUAL.MAP</text>
+<text x="326" y="100" style="font-size:10px;fill:#7f95a8;text-anchor:end">XMAS / 2026</text>
+<g clip-path="url(#pn)">
+<g fill="#cfe8ff">
+<circle class="tw" cx="70" cy="140" r="1"/><circle class="tw" cx="300" cy="130" r="1" style="animation-delay:-.5s"/>
+<circle class="tw" cx="110" cy="190" r="1" style="animation-delay:-1s"/><circle class="tw" cx="310" cy="200" r="1" style="animation-delay:-1.3s"/>
+<circle class="tw" cx="250" cy="165" r="1" style="animation-delay:-.8s"/><circle class="tw" cx="60" cy="230" r="1" style="animation-delay:-.2s"/>
+</g>
+<polygon points="190,168 98,380 282,380" fill="url(#d)"/>
+<g fill="#8d6e4a"><circle cx="186" cy="382" r="1.4"/><circle cx="192" cy="384" r="1.4"/><circle cx="189" cy="388" r="1.4"/><circle cx="195" cy="380" r="1.4"/><circle cx="184" cy="390" r="1.4"/><circle cx="193" cy="391" r="1.4"/><circle cx="188" cy="379" r="1.4"/><circle cx="196" cy="387" r="1.4"/></g>
+<polygon class="tw" points="190,148 193,156 202,156 195,162 197,171 190,166 183,171 185,162 178,156 187,156" fill="#f1c40f"/>
+<circle class="tw" cx="170" cy="235" r="3" fill="#e74c3c"/>
+<circle class="tw" cx="212" cy="262" r="3" fill="#f1c40f" style="animation-delay:-.4s"/>
+<circle class="tw" cx="150" cy="300" r="3" fill="#fff" style="animation-delay:-.8s"/>
+<circle class="tw" cx="232" cy="322" r="3" fill="#3498db" style="animation-delay:-1.2s"/>
+<circle class="tw" cx="180" cy="345" r="3" fill="#e74c3c" style="animation-delay:-.6s"/>
+<circle class="tw" cx="125" cy="360" r="3" fill="#f1c40f" style="animation-delay:-1s"/>
+<circle class="tw" cx="258" cy="358" r="3" fill="#fff" style="animation-delay:-.2s"/>
+<circle class="tw" cx="196" cy="200" r="3" fill="#3498db" style="animation-delay:-1.4s"/>
+<rect x="40" y="402" width="300" height="20" fill="#eaf4fb"/>
+<rect x="140" y="388" width="16" height="14" fill="#e74c3c"/><rect x="147" y="388" width="2" height="14" fill="#f1c40f"/>
+<rect x="160" y="392" width="14" height="10" fill="#3498db"/><rect x="166" y="392" width="2" height="10" fill="#fff"/>
+<rect x="214" y="386" width="18" height="16" fill="#9b59b6"/><rect x="222" y="386" width="2" height="16" fill="#f1c40f"/>
+<rect x="236" y="392" width="12" height="10" fill="#e74c3c"/><rect x="241" y="392" width="2" height="10" fill="#fff"/>
+<g opacity=".85">
+<circle class="s" cx="60" cy="80" r="2" style="animation-duration:6s"/>
+<circle class="s" cx="100" cy="80" r="1.5" style="animation-duration:8s;animation-delay:-3s"/>
+<circle class="s" cx="140" cy="80" r="2.5" style="animation-duration:7s;animation-delay:-5s"/>
+<circle class="s" cx="180" cy="80" r="1.5" style="animation-duration:9s;animation-delay:-2s"/>
+<circle class="s" cx="220" cy="80" r="2" style="animation-duration:6s;animation-delay:-4s"/>
+<circle class="s" cx="260" cy="80" r="2.5" style="animation-duration:8s;animation-delay:-6s"/>
+<circle class="s" cx="300" cy="80" r="1.5" style="animation-duration:7s;animation-delay:-1s"/>
+<circle class="s" cx="320" cy="80" r="2" style="animation-duration:10s;animation-delay:-7s"/>
+<circle class="s" cx="80" cy="80" r="2" style="animation-duration:9s;animation-delay:-8s"/>
+<circle class="s" cx="240" cy="80" r="1.5" style="animation-duration:6s;animation-delay:-2s"/>
+</g>
+<g transform="translate(40,112)"><g class="fly"><g class="bob">
+<line x1="76" y1="30" x2="94" y2="30" stroke="#f1c40f" stroke-width="1.5"/>
+<ellipse cx="106" cy="30" rx="12" ry="6" fill="#8d5a2b"/>
+<line x1="98" y1="34" x2="96" y2="44" stroke="#8d5a2b" stroke-width="2"/><line x1="114" y1="34" x2="118" y2="44" stroke="#8d5a2b" stroke-width="2"/>
+<line x1="102" y1="35" x2="104" y2="45" stroke="#8d5a2b" stroke-width="2"/><line x1="110" y1="35" x2="108" y2="45" stroke="#8d5a2b" stroke-width="2"/>
+<circle cx="120" cy="22" r="4.5" fill="#8d5a2b"/><line x1="115" y1="26" x2="116" y2="31" stroke="#8d5a2b" stroke-width="3"/>
+<circle class="tw" cx="124" cy="23" r="2" fill="#e74c3c"/>
+<path d="M118,18 L116,10 M117,14 L113,12 M121,18 L123,10 M122,14 L126,12" stroke="#c9a66b" stroke-width="1.3" fill="none"/>
+<path d="M2,46 L66,46 Q78,46 78,34" stroke="#f1c40f" stroke-width="2.5" fill="none"/>
+<path d="M6,26 L72,26 Q70,42 58,42 L16,42 Q8,40 6,26 Z" fill="#c0392b"/>
+<ellipse cx="18" cy="22" rx="12" ry="11" fill="#a0703a"/>
+<ellipse cx="47" cy="22" rx="9" ry="10" fill="#e74c3c"/><rect x="38" y="23" width="18" height="3" fill="#222"/>
+<circle cx="47" cy="10" r="6" fill="#fbd5b5"/><path d="M41,11 Q47,26 53,11 Z" fill="#fff"/>
+<circle cx="45" cy="9" r=".9" fill="#222"/><circle cx="49" cy="9" r=".9" fill="#222"/>
+<path d="M41,6 Q46,-10 56,2 L53,7 Q47,4 41,6 Z" fill="#e74c3c"/>
+<rect x="40" y="5" width="14" height="3.5" rx="1.5" fill="#fff"/><circle cx="56" cy="1" r="3" fill="#fff"/>
+<path d="M54,18 L62,12" stroke="#e74c3c" stroke-width="4" stroke-linecap="round"/><circle cx="63" cy="11" r="2.5" fill="#fff"/>
+</g></g></g>
+</g>
+<text x="54" y="412" style="font-size:10px;fill:#5b6b7a">HO HO HO</text>
+
+<rect x="358" y="80" width="502" height="340" rx="8" fill="#f6fafc" stroke="#d5e0e8"/>
+<text x="374" y="100" class="h">SYSTEM.INFO</text>
+<circle class="tw" cx="640" cy="96" r="3.5" fill="#e74c3c"/><text x="650" y="100" style="font-size:10px;fill:#e74c3c">LIVE</text>
+<rect x="705" y="86" width="140" height="20" rx="10" fill="#fbe3e0"/>
+<text x="775" y="100" text-anchor="middle" style="font-size:11px;fill:#c0392b;font-weight:bold">@sagamdeep826</text>
+<text x="374" y="128" class="k">Subject</text><text x="844" y="128" class="v">indentation-error</text>
+<text x="374" y="151" class="k">Role</text><text x="844" y="151" class="v">Full-Stack Developer · Student</text>
+<text x="374" y="174" class="k">Season</text><text x="844" y="174" class="v">Christmas 2026</text>
+<text x="374" y="197" class="k">Status</text><text x="844" y="197" class="v">Building + Learning + Shipping</text>
+<text x="374" y="220" class="k">Core.Lang</text><text x="844" y="220" class="v">JavaScript</text>
+<text x="374" y="243" class="k">Core.Frontend</text><text x="844" y="243" class="v">React · Vite · Tailwind</text>
+<text x="374" y="266" class="k">Core.Backend</text><text x="844" y="266" class="v">Node · Express</text>
+<text x="374" y="289" class="k">Core.Database</text><text x="844" y="289" class="v">Prisma · SQLite</text>
+<text x="374" y="312" class="k">Core.AI</text><text x="844" y="312" class="v">Claude API</text>
+<text x="374" y="335" class="k">Flagship</text><text x="844" y="335" class="v">EventSphere</text>
+<text x="374" y="358" class="k">Grid.GitHub</text><text x="844" y="358" class="v">sagamdeep826-pixel</text>
+<text x="374" y="381" class="k">Grid.Mail</text><text x="844" y="381" class="v">sagamdeep826@gmail.com</text>
+<line x1="374" y1="395" x2="844" y2="395" stroke="#d5e0e8"/>
+<text x="374" y="412" style="font-size:10px;fill:#27ae60">● ALL SYSTEMS MERRY</text>
+<text x="844" y="412" text-anchor="end" style="font-size:10px;fill:#7f95a8">INDIA NODE</text>
 </svg>
